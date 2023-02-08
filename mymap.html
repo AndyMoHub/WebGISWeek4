@@ -43,6 +43,10 @@ A Map that pinpoints attraction areas in Venice, Italy. Perfect for couples that
     zoom: 15
   });
     
+    //Trailheads feature layer (points)
+  const trailheadsLayer = new FeatureLayer({
+    url: "https://services1.arcgis.com/pMeXRvgWClLJZr3s/arcgis/rest/services/romantic_date_locations_in_venice_italy/FeatureServer/0"
+  });
 
   map.add(trailheadsLayer);
 
